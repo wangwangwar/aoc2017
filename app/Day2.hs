@@ -5,6 +5,6 @@ import LibDay2
 main :: IO ()
 main = do 
     print "Input the spreadsheet:"
-    c <- getCheckSum
+    c <- getCheckSumV2
     print c
 
