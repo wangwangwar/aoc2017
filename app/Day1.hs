@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import LibDay1
 
 main :: IO ()
 main = do 

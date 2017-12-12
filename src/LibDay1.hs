@@ -1,4 +1,4 @@
-module Lib (
+module LibDay1 (
     digitSum,
     digitSumV2
     ) where

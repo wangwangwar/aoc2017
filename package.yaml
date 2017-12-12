@@ -38,6 +38,16 @@ executables:
     dependencies:
     - aoc2017
 
+  aoc2017-day2:
+    main:                Day2.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - aoc2017
+
 tests:
   aoc2017-test:
     main:                Spec.hs
